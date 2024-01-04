@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: gray;
+    width: 600px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+button{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(255, 254, 206);
+  background-color: rgba(0, 0, 0, 0);
+ 
+  
+}
+
+.btn_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+
+.info_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+}
